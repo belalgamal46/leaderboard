@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Creative Commns Global Summit 2015
+# Leaderboard
 
 > This is an that use leaderboard api and display it and add your scores to the leaderboard. It's also a practice project on api's from Microvers
 
