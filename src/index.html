@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <title>Leaderboard</title>
   </head>
   <body>
@@ -22,10 +21,10 @@
           <div class="form-title-container">
             <h2>Add your score</h2>
           </div>
-          <form class="form-container">
+          <form class="form-container" method="POST">
             <div class="inputs">
-              <input type="text" placeholder="Your name" />
-              <input type="text" placeholder="Your score" />
+              <input id="name" type="text" placeholder="Your name" required />
+              <input id="score" type="number" placeholder="Your score" required />
             </div>
             <button type="submit">Submit</button>
           </form>
