@@ -1,8 +1,9 @@
 import './index.css';
 
 // ------------ API ------------ //
-const gameId = 'iq5csAYCzE4lXcPDG5DX';
-const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
+
+const baseUrl = process.env.BASE_URL;
+const gameId = process.env.GAME_ID;
 
 const getScores = async () => {
   try {
