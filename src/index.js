@@ -1,9 +1,8 @@
 import './index.css';
 
 // ------------ API ------------ //
-
-const baseUrl = process.env.BASE_URL;
 const gameId = process.env.GAME_ID;
+const baseUrl = process.env.BASE_URL;
 
 const getScores = async () => {
   try {
